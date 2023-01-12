@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
             <Logo color='#333136'/>
             <div className='nav-links'>
-                <Link className='nav-link'>our company</Link>
+                <Link className='nav-link' to={'/our-company'}>our company</Link>
                 <Link className='nav-link'>locations</Link>
                 <Link className='nav-link'>contact</Link>
             </div>

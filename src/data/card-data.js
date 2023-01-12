@@ -6,6 +6,9 @@ import img4 from '../assets/express-desktop-4.png'
 import img5 from '../assets/express-desktop-5.png'
 // import img6 from '../assets/express-desktop-6.png'
 
+import bitmap1 from '../assets/bitmap1.png'
+import bitmap2 from '../assets/bitmap2.png'
+
 export const cardata = [
     {
         id: '1',
@@ -43,4 +46,19 @@ export const cardata = [
         title: 'camp',
         text: 'Get expert training in coding, data, design, and digital marketing'
     }
+]
+
+export const bgCard = [
+    {
+        id: '1',
+        url: bitmap1,
+        title: 'app design',
+        text: 'view projects'
+    },
+    {
+        id: '2',
+        url: bitmap2,
+        title: 'graphic design',
+        text: 'view projects'
+    },
 ]
