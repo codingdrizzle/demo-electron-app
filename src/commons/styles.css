@@ -1,0 +1,75 @@
+.jumbotron {
+    width: 100%;
+    padding: 5% 8%;
+    background: url('../assets/bg-card.svg');
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jumbotron-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.jumbotron-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Card styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDF3F0;
+    flex: 1;
+    border-radius: 15px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-footer {
+    padding: 10%;
+}
+
+.footer-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #E7816B;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333136;
+}
