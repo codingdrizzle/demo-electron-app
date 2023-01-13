@@ -86,7 +86,7 @@
     width: 100%;
 }
 
-.bg-card .overlay-text{
+.bg-card .overlay-text {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
     align-items: center;
 }
 
-.bg-card img{
+.bg-card img {
     width: 100%;
     height: auto;
 }
@@ -118,4 +118,20 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.home-jumb {
+    background: url('../assets/Group11.png');
+    background-size: cover;
+    width: 100%;
+    /* padding: 5% 8%; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: auto;
+}
+
+.home-jumb img{
+  margin-top: 10;
 }

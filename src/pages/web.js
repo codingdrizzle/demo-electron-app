@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../layout'
 import Navbar from '../layout/navbar'
-import Jumbotron from '../commons/jumbotron'
+import {Jumbotron} from '../commons/jumbotron'
 import Card from '../commons/card'
 import { Row, Col } from 'antd'
 import { cardata, bgCard } from '../data/card-data'
 import BgCard from '../commons/bg-card'
 
-const Homepage = () => {
+const WebPage = () => {
   return (
     <Layout>
       <Row gutter={[0, 160]}>
@@ -46,4 +46,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default WebPage
