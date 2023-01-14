@@ -27,12 +27,12 @@ const ImageGrid = () => {
                 <GridBox url={grid1} title={'Web Design'} text={'view projects'} />
             </Col>
             <Col span={12}>
-                <Row gutter={[0, 20]}>
+                <Row gutter={[0, 20]} align='middle' justify={'center'}>
                     <Col span={24}>
-                        <img src={grid2} alt="grid image" style={{ width: '100%', height: 'auto' }} />
+                        <GridBox url={grid2} title={'App Design'} text={'view projects'} />
                     </Col>
                     <Col span={24}>
-                        <img src={grid3} alt="grid image" style={{ width: '100%', height: 'auto' }} />
+                        <GridBox url={grid3} title={'Graphic Design'} text={'view projects'} />
                     </Col>
                 </Row>
             </Col>
