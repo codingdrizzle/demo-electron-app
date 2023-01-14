@@ -1,5 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'antd'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+
 import './styles.css'
 
 import grid1 from '../../assets/grid-1.png'
@@ -12,7 +14,7 @@ export const GridBox = ({ url, title, text }) => {
             <img src={url} alt="grid image" style={{ width: '100%', height: 'auto' }} />
             <div className="overlay">
                 <h1 className='title'>{title}</h1>
-                <p className='text'>{text}</p>
+                <p className='text'><span>{text}</span> <span><MdOutlineKeyboardArrowRight size={20} color={'#E7816B'} /></span></p>
             </div>
         </div>
     );
