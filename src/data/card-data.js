@@ -28,24 +28,24 @@ export const cardata = [
         title: 'photon',
         text: 'A state-of-the-art music player with high-resolution audio and DSP effects'
     },
-    //{
-    //    id: '4',
-    //    url: img3,
-    //    title: 'builder',
-    //    text: 'Connects users with local contractors based on their location'
-    //},
-    //{
-    //    id: '5',
-    //    url: img4,
-    //    title: 'blogr',
-    //    text: 'Blogr is a platform for creating an online blog or publication'
-    //},
-    //{
-    //    id: '6',
-    //    url: img5,
-    //    title: 'camp',
-    //    text: 'Get expert training in coding, data, design, and digital marketing'
-    //}
+    {
+        id: '4',
+        url: img3,
+        title: 'builder',
+        text: 'Connects users with local contractors based on their location'
+    },
+    {
+        id: '5',
+        url: img4,
+        title: 'blogr',
+        text: 'Blogr is a platform for creating an online blog or publication'
+    },
+    {
+        id: '6',
+        url: img5,
+        title: 'camp',
+        text: 'Get expert training in coding, data, design, and digital marketing'
+    }
 ]
 
 export const bgCard = [
