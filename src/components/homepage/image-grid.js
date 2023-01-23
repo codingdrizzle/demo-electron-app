@@ -11,7 +11,7 @@ import grid3 from '../../assets/grid-3.jpg'
 export const GridBox = ({ url, title, text }) => {
     return (
         <div className='grid-box'>
-            <img src={url} alt="grid image" style={{ width: '100%', height: 'auto' }} />
+            <img src={url} alt="grid" style={{ width: '100%', height: 'auto' }} />
             <div className="overlay">
                 <h1 className='title'>{title}</h1>
                 <p className='text'><span>{text}</span> <span><MdOutlineKeyboardArrowRight size={20} color={'#E7816B'} /></span></p>
